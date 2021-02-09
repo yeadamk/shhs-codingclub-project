@@ -120,7 +120,6 @@ p {
 
 .card {
     width: 100%;
-    padding: 2rem;
     background: rgb(170, 105, 13);
     transition: all .3s;
     font-size: 2rem;
@@ -137,6 +136,7 @@ p {
 .card-content {
     color: #ffffff;
     overflow-wrap: break-word;
+    padding: 2rem;
 }
 
 /* Images */
