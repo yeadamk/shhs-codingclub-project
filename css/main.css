@@ -1,0 +1,166 @@
+/* General stylings */
+/* the star or asterisk represents "all" */
+* {
+    /* Box-sizing: https://www.w3schools.com/css/css3_box-sizing.asp */
+    box-sizing: border-box; /* default is content-box */
+    
+    /*shortcut for padding: top right bottom left; */
+    /* removes padding for all child elements under body unless overrided */
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    /* sets the font of the text */
+    font-family: 'Raleway', sans-serif;
+
+    /* sets the distance between lines*/
+    line-height: 1.5;
+
+    /* sets font size */
+    font-size: 18px;
+}
+
+p {
+    /* to give some gap */
+    /* 0 top and bottom, 40 left and right */
+    margin: 0px 10vw;
+    margin-bottom: 24px;
+}
+
+a {
+    /* gets rid of the default underline in links */
+    text-decoration: none;
+}
+
+/* Header styling*/
+.header {
+    /* sets a background img */
+    /* There is a shortcut called "background" */
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    /* sets the height of the header img */
+    height: 300px;
+
+    /* to give some gap */
+    margin-bottom: 40px;
+}
+
+.header h1{
+    /* horizontal alignment of a block element (center, left, right, justify) */
+    text-align: center; 
+
+    /* sets the color value of an element's text (rgb, hsl, pre-defined colors, etc) */
+    color: whitesmoke;
+    
+    /* sets the font-size of a text with units (px, em, rem, in, vh, vw) */
+    font-size: 90px;
+
+    /* use padding to center the text */
+    padding: 100px 0px;
+}
+
+/* Opener text styling (after selector) */
+/* If you wanna learn: https://www.w3schools.com/cssref/sel_after.asp */
+.opener::after {
+    height: 8px;
+    width: 108px;
+    content: "";
+    display: block;
+    margin: 0px 0px 40px 10vw;
+    background-color: brown;
+}
+
+/* Section styling */
+section {
+    /* order: top right bottom left */
+    margin: 50px 12% 50px 12%;
+
+    /* shortcut for top left-right bottom */
+    padding: 10px 20px 10px;
+    background-color: bisque;
+
+    border-radius: 20px;
+}
+
+section h2 {
+    /* transforms the text to all Caps */
+    text-transform: uppercase;
+
+    /* for some gap */
+    margin: 10px 20px
+}
+
+/* Image styling */
+.container {
+    /* sets the display of an element as block, inline-block, or inline */
+    /* Display property: https://developer.mozilla.org/en-US/docs/Web/CSS/display */
+    display: block;
+
+    /* auto means equal */
+    margin: 30px auto 30px;
+
+    /* sets the width and height */
+    width: 60%;
+    height: 15%;
+
+    /* centers the content, which is image */
+    text-align: center;
+}
+
+/* selects all img elements inside the div parent element */
+div > img {
+    /* sets the width and height of the image (filling the div element) */
+    /* auto means automatically adjusted with regard to the div element */
+    width: auto;
+    height : auto;
+
+    /* sets the max-height and width */
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Button styling */
+.button-container {
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* shortcut for top-bottom and right-left */
+    margin: 30px auto;
+
+}
+
+button {
+    /* button styling */
+    display: block;
+    padding: 12px 40px;
+    border: 3.5px solid;
+    margin: 0px 5px;
+    opacity: 0.8; /* sets the opacity */
+    border-radius: 32px; /* makes the border round */
+
+    /* text styling*/
+    color: #000000;
+    text-align: center;
+    font-weight: 600; /* sets the font thickness */
+
+    /* transition effect (more advanced stuff) */
+    transition: all 0.2s;
+}
+
+button:hover{
+    /* These are hexadecimal colors (0-f) */
+    color: #ffffff;
+    background-color: #000000;
+
+    /* button scales down on hover */
+    transform: scale(0.98);
+
+    /* changes the mosue cursor */
+    cursor: pointer;
+}
