@@ -38,7 +38,7 @@ a {
 .header {
     /* sets a background img */
     /* There is a shortcut called "background" */
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 

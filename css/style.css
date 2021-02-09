@@ -147,7 +147,7 @@ p {
 
 .header-image-container {
     position: absolute;
-    background: url("images/header.png") center no-repeat;
+    background: url("../images/header.png") center no-repeat;
     width: 100%;
     height: 60vh;
     z-index: -1;
