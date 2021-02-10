@@ -58,6 +58,10 @@ p {
     color: #5a78e2;
 }
 
+.left {
+    text-align: left;
+}
+
 /* Title*/
 .title-container {
     display: flex;
