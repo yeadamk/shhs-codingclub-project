@@ -68,7 +68,7 @@ p {
     background-color: #eeff05;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 7vh;
 }
 
 /* Header Classes + Intro */
@@ -240,7 +240,41 @@ p {
 }
 
 /* Responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+    .btn {
+        display: none;
+    }
+
+    .showcase {
+        height: 55vh;
+    }
+
+    .title-container {
+        height: 8vh;
+    }
+
+    .logo-container {
+        display: none;
+    }
+
+    .title-container h1 {
+        font-size: 1.3rem;
+    }
+
+    .showcase h2 {
+        font-size: 2.2rem;
+        text-shadow: 1px 2px 3px #6e6e6e;
+        padding: 5vh auto;
+        margin: auto;
+    }
+
+    .showcase h3 {
+        font-size: 1.5rem;
+        text-shadow: 1px 2px 3px #d4d4d4;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 480px) {
     .showcase h2 {
         font-size: 2.3rem;
         text-shadow: 1px 2px 3px #6e6e6e;
