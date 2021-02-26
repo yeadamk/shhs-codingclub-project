@@ -1,5 +1,7 @@
 # SHHSCodingClubProject
-Web Development Project for SHHS Coding Club
-* Contains About Us Section
-* Contains Contact Information
-* Has six different portfolio project websites
+Web Development Project Page with a simple and minimalistic look
+
+### Web Development Project for SHHS Coding Club
+
+* Includes contact information about the club
+* Links to different websites/projects
