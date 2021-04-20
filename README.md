@@ -1,2 +1,7 @@
 # SHHSCodingClubProject
-Web Development Project for SHHS Coding Club
+Web Development Project Page with a simple and minimalistic look
+
+### Overview
+
+* Includes contact information about the club
+* Links to individual websites/projects
