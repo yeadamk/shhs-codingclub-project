@@ -161,6 +161,6 @@ button:hover{
     /* button scales down on hover */
     transform: scale(0.98);
 
-    /* changes the mosue cursor */
+    /* changes the mouse cursor */
     cursor: pointer;
 }
