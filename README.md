@@ -2,7 +2,7 @@
 
 Web Development Project Page with a simple and minimalistic look
 
-> Here's the link to the website: <a src="https://yeadamk.github.io/shhs-codingclub-project/" target="blank">https://yeadamk.github.io/shhs-codingclub-project/</a>
+> Here's the link to the website: <a href="https://yeadamk.github.io/shhs-codingclub-project/" target="blank">shhs-codingclub-project</a>
 
 ## Overview
 
