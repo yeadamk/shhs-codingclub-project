@@ -5,14 +5,3 @@ Web Development Project Page with a simple and minimalistic look
 
 * Includes contact information about the club
 * Links to individual websites, projects, and demos
-
-paragraph
-another paragraph
-
-paragrasd  dafjsakldf
-
-ajdfklajsdkf  
-djfklajfksld
-
-adsljflsj 
-djflkadsjf
