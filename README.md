@@ -1,6 +1,5 @@
 # SHHSCodingClubProject
 Web Development Project Page with a simple and minimalistic look
----
 
 ### Overview
 
