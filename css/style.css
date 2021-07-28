@@ -64,6 +64,16 @@ p {
     text-align: left;
 }
 
+.fa-github {
+    color: #fff;
+    transition: color .5s ease;
+}
+
+.fa-github:hover {
+    color: #1597e2;
+    transition: color .2s ease;
+}
+
 /* Title*/
 .title-container {
     display: flex;
